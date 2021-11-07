@@ -1,0 +1,105 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "Player",
+						"type": "address"
+					}
+				],
+				"name": "addPlayer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "Player",
+						"type": "address"
+					}
+				],
+				"name": "isALoser",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "play",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "oneInThisMany",
+						"type": "uint256"
+					}
+				],
+				"name": "setOdds",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Store & retrieve value in a variable",
+			"kind": "dev",
+			"methods": {},
+			"title": "Storage",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Russian_Roulette.sol": "Russian_Roulette"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Russian_Roulette.sol": {
+			"keccak256": "0x7d938dcba2265012ae8dc0589215c45dae4b38e65c0543fb6cde69e4be3e9886",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://6fffe058f592abbe031b65d6554be32edf669e5fd1375f1b28592d3bc6a540e2",
+				"dweb:/ipfs/QmVzDbM422pmf18Jndc1T7W8MADrbkKqm1hWhNgDoDkpWC"
+			]
+		}
+	},
+	"version": 1
+}
