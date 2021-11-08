@@ -36,7 +36,7 @@ contract Russian_Roulette{
         }
     }
     function random() private view returns (uint256){
-        return uint(keccak256(abi.encodePacked(block.difficulty, block.timestamp, creator)))%odds;
+        return (uint(keccak256(abi.encodePacked(block.difficulty, block.timestamp, creator)))%(odds-1))+1;
     }
     function lose(address Player) private{
         require(contains(players,Player));

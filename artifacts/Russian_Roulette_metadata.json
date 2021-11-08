@@ -93,11 +93,11 @@
 	},
 	"sources": {
 		"Russian_Roulette.sol": {
-			"keccak256": "0x7d938dcba2265012ae8dc0589215c45dae4b38e65c0543fb6cde69e4be3e9886",
+			"keccak256": "0xb16bc80790f9bb5c79bbc1d0484bacd4dd2eb5cd135ed7871c7cdde65d52d603",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://6fffe058f592abbe031b65d6554be32edf669e5fd1375f1b28592d3bc6a540e2",
-				"dweb:/ipfs/QmVzDbM422pmf18Jndc1T7W8MADrbkKqm1hWhNgDoDkpWC"
+				"bzz-raw://94f0842c990bb5713b5775a7fd0b108d60f97909e5cbcd6aae97303fcc79a5af",
+				"dweb:/ipfs/QmR48D6eettwAoWAoBjbSiXXj3Sev2A6DhSSUR7usafrSR"
 			]
 		}
 	},
